@@ -1,0 +1,45 @@
+{
+  "cash_flows": {
+    "initial_2027": 300000.0,
+    "contribution_2028": 150000.0,
+    "annual_payout": 50000.0,
+    "start_year": 2033,
+    "end_year": 2042
+  },
+  "treasury_yields_nov_10_2026": {
+    "5y": 0.0481,
+    "7y": 0.0489,
+    "10y": 0.0498,
+    "20y": 0.0539
+  },
+  "rates_and_fees": {
+    "fund_fee": 0.0007,
+    "tbill_rate": 0.0430,
+    "floor_rate": 0.0400,
+    "reserve_rate_base": 0.0500,
+    "reserve_rate_low": 0.0350,
+    "reserve_rate_high": 0.0650,
+    "stress_reinvestment_rate": 0.0200
+  },
+  "holdings_2027": {
+    "ladder_total_cost": 186739.95,
+    "growth_sleeve_cost": 103885.34,
+    "cash": 7838.97,
+    "accrued_interest": 1260.74
+  },
+  "growth_sleeve": {
+    "weights": [0.57, 0.23, 0.20],
+    "expected_returns": [0.0895, 0.0921, 0.0686],
+    "volatilities": [0.1796, 0.1834, 0.1724],
+    "correlations": [
+      [1.00, 0.87, 0.04],
+      [0.87, 1.00, 0.17],
+      [0.04, 0.17, 1.00]
+    ],
+    "default_floor_share": 0.3333333333333333,
+    "stress_returns_2yr": {
+      "weak": -0.30,
+      "strong": 0.45
+    }
+  }
+}
